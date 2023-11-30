@@ -11,7 +11,7 @@ const TrendingCoins = ({ coin }) => {
                 <span className="w-full text-center"> {coin.market_cap_rank}</span>
                 <span className={`flex gap-1 text-[black]`}>
                     <span className="text-md">$</span>
-                    {(coin.price_btc).toFixed(2)}
+                    {coin.price_btc}
                 </span>
 
             </div>
